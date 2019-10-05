@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="helder" content="https:/FindThePrecious.com">
+    <meta name="description" content="augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>FindThePrecious</title>
 </head>
@@ -10,7 +12,7 @@
 <body>
 
     <header id="home">
-        <h2>Find The Precious</h2>
+        <h1>Find The Precious</h1>
         <a href="https://placeholder.com"><img src="https://via.placeholder.com/350x150.png/09f//fff" alt="imag"></a>
         <p>Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus. Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo
             placerat imperdiet. Aenean suscipit nulla in justo. Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur
@@ -87,10 +89,14 @@
         <form action="fish" method="POST">
             <fieldset>
                 <legend>Conctac US</legend>
-                <input type="email" name="email">
-                <input type="text" name="text">
-                <input type="text" name="texts">
-                <textarea name="messanges" id="messanges" cols="30" rows="10"></textarea>
+                <label for="email">Enter your email: </label>
+                <input type="email" id="email" name="email">
+                <label for="name">Enter your name</label>
+                <input type="text" id="name" name="name">
+                <label for=hom>Enter your home</label>
+                <input type="text" id="hom" name="hom">
+                <label for="messange">Enter your messanges</label>
+                <textarea name="messange" id="messange" cols="80" rows="10"></textarea>
                 <input type="submit" value="send">
 
             </fieldset>
